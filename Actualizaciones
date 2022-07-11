@@ -1,11 +1,13 @@
 {
-  "Version": "1.1.8",
-  "ReleaseNotes": "Nova Atualização Disponível",
+  "Version": "1.1",
+  "ReleaseNotes": "NUEVA VERSIÓN DISPONIBLE",
   "UrlUpdate": "https://raw.githubusercontent.com/betoxxx/servers/main/Actualizaciones",
-  "EmailFeedback": "",
-  "UrlContato": "",
-  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "Sms": "",
+  "EmailFeedback": "https://t.me/netflixparaguayy",
+  "UrlContato": "https://t.me/netflixparaguayy",
+  "UrlTermos": "https://vipnetbr.github.io/conectapy_site/termos.html",
   "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
   "Udp": [
     {
       "Porta": "7300"
@@ -13,11 +15,11 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR PY",
+      "Name": "PARAGUAY ILIMITADO",
       "TYPE": "premium",
       "FLAG": "py.png",
       "ServerIP": "52.85.213.227",
-      "CheckUser": "",
+      "CheckUser": "URL: http://191.96.224.205:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -26,15 +28,24 @@
   ],
   "Networks": [
     {
-      "Name": "TIGO PY [SSL 1]",
-      "FLAG": "ic_tim.png",
-      "GET / HTTP/1.1[crlf]Host: d107x2o9eiuuxg.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "52.85.213.227",
+      "Name": "TIGO PY 01",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d107x2o9eiuuxg.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
       "TlsIP": "52.85.213.227",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIGO PY 02",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d1atuw0u7h4ays.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "13.227.125.218",
+      "TlsIP": "13.227.125.218",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Tlsws"
     }
   ]
 }
-
